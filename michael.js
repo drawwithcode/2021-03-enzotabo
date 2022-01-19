@@ -11,9 +11,9 @@ function Michael(x, y, img, audio, raggio, velocita) {
 
   this.display = function () {
     image(this.ms, this.x - this.r / 2, this.y - this.r / 2, this.r, this.r);
-    stroke(255);
-    fill(this.col);
-    ellipse(this.x, this.y, 75, 75);
+    // stroke(255);
+    // fill(this.col);
+    // ellipse(this.x, this.y, 75, 75);
   };
 
   this.clicked = function () {};
